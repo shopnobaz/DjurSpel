@@ -24,7 +24,6 @@ public class Player {
      *
      * //@param name  What name, how much money has
      *
-     * @author jahed,nahid, shehab
      */
 
     public Player(String name) {
@@ -102,6 +101,10 @@ public class Player {
         }
     }
 
+    /**
+     * method to check if there is animal to check health
+     * @param type
+     */
     public boolean doHaveAnimal(AnimalType type) {
         boolean doHaveAnimal = false;
         for(int i=0; i<animals.size(); i++) {
